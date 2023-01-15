@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+
+
+
+body {
+  font-family: 'Sofia Pro', sans-serif;
+  background-color: #f2f6fa;
+}
+a {
+  color: #e12454;
+  display:inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  opacity: 0.9;
+}
+
+h2 {
+  font-family: 'Sofia Pro', sans-serif;
+    color:black;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    width: 85%;
+    letter-spacing: 0.1rem;
+    padding: 10px 0px 0px 0px;
+}
+
+.icon-justify{
+    display: flex;
+    justify-content: flex-end;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+}
+.close-btn{
+    width: 25px;
+    margin:20px;
+}
+#formContent {
+  font-family: 'Sofia Pro', sans-serif;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  background: #fff;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  padding: 0px;
+  -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 0.0625rem 0.25rem 0 rgb(61 66 80 / 18%);
+  text-align: center;
+}
+
+#formFooter {
+  background-color: #f6f6f6;
+  border-top: 1px solid #dce8f1;
+  padding: 25px;
+  text-align: center;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  font-family: 'Sofia Pro', sans-serif;
+}
+
+
+
+
+input[type=password] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  font-family: 'Sofia Pro', sans-serif;
+}
+input[type=text] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  font-family: 'Sofia Pro', sans-serif;
+
+}
+label{
+  font-family: 'Sofia Pro', sans-serif;
+    color: #0d0d0d;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 85%;
+    padding: 2px 0px 5px 0px;
+
+}
+input[type=text]:focus {
+  background-color: #fff;
+  border: 2px solid #e12454;
+}
+
+input[type=text]:placeholder {
+  color: #cccccc;
+}
+/* OTHERS */
+
+*:focus {
+    outline: none;
+} 
+
+#icon {
+  width:60%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.span-holder{
+    padding-top: 20px;
+}
+
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-size: 0.8125rem;
+    font-weight: 700;
+    letter-spacing: .3px;
+    padding: .75rem 11rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-family: 'Sofia Pro', sans-serif;
+    border: 2px solid transparent;
+    transition: all .35s ease;
+    margin: 0.75rem;
+  }
+  
+  .btn.btn-icon i {
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+    padding-left: 15px;
+  }
+  
+  .btn:focus {
+    outline: 0px;
+    box-shadow: none;
+  }
+  
+  .btn-main {
+    background: #223a66;
+    color: #fff;
+    border-color: #223a66;
+  }
+  
+  .btn-main:hover {
+    background: #e12454;
+    border-color: #e12454;
+    color: #fff;
+  }
+  
+  .btn-main-2 {
+    background: #e12454;
+    color: #fff;
+    border-color: #e12454;
+  }
+  
+  .btn-main-2:hover {
+    background: #223a66;
+    color: #fff;
+    border-color: #223a66;
+  }
+  
+  .btn-solid-border {
+    border: 2px solid #223a66;
+    background: transparent;
+    color: #223a66;
+  }
+  
+  .btn-solid-border:hover {
+    border: 2px solid #223a66;
+    color: #fff;
+    background: #223a66;
+  }
+  
+  .btn-solid-border:hover.btn-icon i {
+    border-left: 1px solid rgba(255, 255, 255, 0.09);
+  }
+  
+  .btn-solid-border.btn-icon i {
+    border-left: 1px solid rgba(0, 0, 0, 0.09);
+  }
+  
+  .btn-transparent {
+    background: transparent;
+    color: #222;
+    border-color: #6F8BA4;
+  }
+  
+  .btn-transparent:hover {
+    background: #6F8BA4;
+    color: #fff;
+  }
+  
+  .btn-white {
+    background: #fff;
+    border-color: #fff;
+    color: #222;
+  }
+  
+  .btn-white:hover {
+    background: #223a66;
+    color: #fff;
+    border-color: #223a66;
+  }
+  
+  .btn-solid-white {
+    border-color: #fff;
+    color: #fff;
+  }
+  
+  .btn-solid-white:hover {
+    background: #fff;
+    color: #222;
+  }
+  
+  .btn-round {
+    border-radius: 4px;
+  }
+  
+  .btn-round-full {
+    border-radius: 50px;
+  }
+  
+  .btn.active:focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+  }
